@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA27542A1E3560C700FB576A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2754291E3560C700FB576A /* main.m */; };
+		EA27542D1E3560C700FB576A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27542C1E3560C700FB576A /* AppDelegate.m */; };
+		EA2754301E3560C700FB576A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27542F1E3560C700FB576A /* ViewController.m */; };
+		EA2754331E3560C700FB576A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2754311E3560C700FB576A /* Main.storyboard */; };
+		EA2754351E3560C700FB576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2754341E3560C700FB576A /* Assets.xcassets */; };
+		EA2754381E3560C700FB576A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2754361E3560C700FB576A /* LaunchScreen.storyboard */; };
+		EA2754431E3560C700FB576A /* CoffeeAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2754421E3560C700FB576A /* CoffeeAppsTests.m */; };
+		EA27544E1E3560C700FB576A /* CoffeeAppsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27544D1E3560C700FB576A /* CoffeeAppsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA27543F1E3560C700FB576A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA27541D1E3560C700FB576A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2754241E3560C700FB576A;
+			remoteInfo = CoffeeApps;
+		};
+		EA27544A1E3560C700FB576A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA27541D1E3560C700FB576A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2754241E3560C700FB576A;
+			remoteInfo = CoffeeApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA2754251E3560C700FB576A /* CoffeeApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2754291E3560C700FB576A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA27542B1E3560C700FB576A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA27542C1E3560C700FB576A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA27542E1E3560C700FB576A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA27542F1E3560C700FB576A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA2754321E3560C700FB576A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA2754341E3560C700FB576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2754371E3560C700FB576A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA2754391E3560C700FB576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA27543E1E3560C700FB576A /* CoffeeAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2754421E3560C700FB576A /* CoffeeAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeAppsTests.m; sourceTree = "<group>"; };
+		EA2754441E3560C700FB576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2754491E3560C700FB576A /* CoffeeAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA27544D1E3560C700FB576A /* CoffeeAppsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeAppsUITests.m; sourceTree = "<group>"; };
+		EA27544F1E3560C700FB576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2754221E3560C700FB576A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27543B1E3560C700FB576A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2754461E3560C700FB576A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA27541C1E3560C700FB576A = {
+			isa = PBXGroup;
+			children = (
+				EA2754271E3560C700FB576A /* CoffeeApps */,
+				EA2754411E3560C700FB576A /* CoffeeAppsTests */,
+				EA27544C1E3560C700FB576A /* CoffeeAppsUITests */,
+				EA2754261E3560C700FB576A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2754261E3560C700FB576A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2754251E3560C700FB576A /* CoffeeApps.app */,
+				EA27543E1E3560C700FB576A /* CoffeeAppsTests.xctest */,
+				EA2754491E3560C700FB576A /* CoffeeAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2754271E3560C700FB576A /* CoffeeApps */ = {
+			isa = PBXGroup;
+			children = (
+				EA27542B1E3560C700FB576A /* AppDelegate.h */,
+				EA27542C1E3560C700FB576A /* AppDelegate.m */,
+				EA27542E1E3560C700FB576A /* ViewController.h */,
+				EA27542F1E3560C700FB576A /* ViewController.m */,
+				EA2754311E3560C700FB576A /* Main.storyboard */,
+				EA2754341E3560C700FB576A /* Assets.xcassets */,
+				EA2754361E3560C700FB576A /* LaunchScreen.storyboard */,
+				EA2754391E3560C700FB576A /* Info.plist */,
+				EA2754281E3560C700FB576A /* Supporting Files */,
+			);
+			path = CoffeeApps;
+			sourceTree = "<group>";
+		};
+		EA2754281E3560C700FB576A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2754291E3560C700FB576A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA2754411E3560C700FB576A /* CoffeeAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA2754421E3560C700FB576A /* CoffeeAppsTests.m */,
+				EA2754441E3560C700FB576A /* Info.plist */,
+			);
+			path = CoffeeAppsTests;
+			sourceTree = "<group>";
+		};
+		EA27544C1E3560C700FB576A /* CoffeeAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA27544D1E3560C700FB576A /* CoffeeAppsUITests.m */,
+				EA27544F1E3560C700FB576A /* Info.plist */,
+			);
+			path = CoffeeAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2754241E3560C700FB576A /* CoffeeApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2754521E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeApps" */;
+			buildPhases = (
+				EA2754211E3560C700FB576A /* Sources */,
+				EA2754221E3560C700FB576A /* Frameworks */,
+				EA2754231E3560C700FB576A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeeApps;
+			productName = CoffeeApps;
+			productReference = EA2754251E3560C700FB576A /* CoffeeApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA27543D1E3560C700FB576A /* CoffeeAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2754551E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeAppsTests" */;
+			buildPhases = (
+				EA27543A1E3560C700FB576A /* Sources */,
+				EA27543B1E3560C700FB576A /* Frameworks */,
+				EA27543C1E3560C700FB576A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2754401E3560C700FB576A /* PBXTargetDependency */,
+			);
+			name = CoffeeAppsTests;
+			productName = CoffeeAppsTests;
+			productReference = EA27543E1E3560C700FB576A /* CoffeeAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA2754481E3560C700FB576A /* CoffeeAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2754581E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeAppsUITests" */;
+			buildPhases = (
+				EA2754451E3560C700FB576A /* Sources */,
+				EA2754461E3560C700FB576A /* Frameworks */,
+				EA2754471E3560C700FB576A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA27544B1E3560C700FB576A /* PBXTargetDependency */,
+			);
+			name = CoffeeAppsUITests;
+			productName = CoffeeAppsUITests;
+			productReference = EA2754491E3560C700FB576A /* CoffeeAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA27541D1E3560C700FB576A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Key;
+				TargetAttributes = {
+					EA2754241E3560C700FB576A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EA27543D1E3560C700FB576A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA2754241E3560C700FB576A;
+					};
+					EA2754481E3560C700FB576A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA2754241E3560C700FB576A;
+					};
+				};
+			};
+			buildConfigurationList = EA2754201E3560C700FB576A /* Build configuration list for PBXProject "CoffeeApps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA27541C1E3560C700FB576A;
+			productRefGroup = EA2754261E3560C700FB576A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2754241E3560C700FB576A /* CoffeeApps */,
+				EA27543D1E3560C700FB576A /* CoffeeAppsTests */,
+				EA2754481E3560C700FB576A /* CoffeeAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2754231E3560C700FB576A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2754381E3560C700FB576A /* LaunchScreen.storyboard in Resources */,
+				EA2754351E3560C700FB576A /* Assets.xcassets in Resources */,
+				EA2754331E3560C700FB576A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27543C1E3560C700FB576A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2754471E3560C700FB576A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2754211E3560C700FB576A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2754301E3560C700FB576A /* ViewController.m in Sources */,
+				EA27542D1E3560C700FB576A /* AppDelegate.m in Sources */,
+				EA27542A1E3560C700FB576A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27543A1E3560C700FB576A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2754431E3560C700FB576A /* CoffeeAppsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2754451E3560C700FB576A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA27544E1E3560C700FB576A /* CoffeeAppsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA2754401E3560C700FB576A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2754241E3560C700FB576A /* CoffeeApps */;
+			targetProxy = EA27543F1E3560C700FB576A /* PBXContainerItemProxy */;
+		};
+		EA27544B1E3560C700FB576A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2754241E3560C700FB576A /* CoffeeApps */;
+			targetProxy = EA27544A1E3560C700FB576A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA2754311E3560C700FB576A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2754321E3560C700FB576A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA2754361E3560C700FB576A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2754371E3560C700FB576A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2754501E3560C700FB576A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA2754511E3560C700FB576A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2754531E3560C700FB576A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoffeeApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA2754541E3560C700FB576A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoffeeApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA2754561E3560C700FB576A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoffeeAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeApps.app/CoffeeApps";
+			};
+			name = Debug;
+		};
+		EA2754571E3560C700FB576A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoffeeAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeApps.app/CoffeeApps";
+			};
+			name = Release;
+		};
+		EA2754591E3560C700FB576A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoffeeAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoffeeApps;
+			};
+			name = Debug;
+		};
+		EA27545A1E3560C700FB576A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoffeeAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoffeeApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2754201E3560C700FB576A /* Build configuration list for PBXProject "CoffeeApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2754501E3560C700FB576A /* Debug */,
+				EA2754511E3560C700FB576A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2754521E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2754531E3560C700FB576A /* Debug */,
+				EA2754541E3560C700FB576A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA2754551E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2754561E3560C700FB576A /* Debug */,
+				EA2754571E3560C700FB576A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA2754581E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2754591E3560C700FB576A /* Debug */,
+				EA27545A1E3560C700FB576A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA27541D1E3560C700FB576A /* Project object */;
+}
