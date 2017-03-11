@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					EA2754241E3560C700FB576A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8BYLQG965R;
 						ProvisioningStyle = Automatic;
 					};
 					EA27543D1E3560C700FB576A = {
@@ -422,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8BYLQG965R;
 				INFOPLIST_FILE = CoffeeApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeApps;
@@ -433,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8BYLQG965R;
 				INFOPLIST_FILE = CoffeeApps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NewProject.CoffeeApps;
@@ -505,6 +508,7 @@
 				EA2754541E3560C700FB576A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA2754551E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeAppsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				EA2754571E3560C700FB576A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA2754581E3560C700FB576A /* Build configuration list for PBXNativeTarget "CoffeeAppsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				EA27545A1E3560C700FB576A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
