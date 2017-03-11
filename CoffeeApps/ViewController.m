@@ -26,4 +26,19 @@
 }
 
 
+- (IBAction)calculateFeilds:(id)sender {
+    NSLog(@"Calculate Pressed");
+    
+    float water = [[self.waterTextFeild text] floatValue];
+    float ratio = [[self.ratioTextFeild text] floatValue];
+    
+    NSLog(@"water: %f ratio: %f", water, ratio);
+    
+    float coffee = water / ratio;
+    NSLog(@"coffee: %f", coffee);
+    
+    NSString *coffeeText = [NSString stringWithFormat:@"%f", coffee];
+    
+    self.coffeeTextFeild.text = coffeeText;
+}
 @end
