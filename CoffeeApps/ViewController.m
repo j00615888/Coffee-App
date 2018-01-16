@@ -29,16 +29,34 @@
 - (IBAction)calculateFeilds:(id)sender {
     NSLog(@"Calculate Pressed");
     
-    float water = [[self.waterTextFeild text] floatValue];
-    float ratio = [[self.ratioTextFeild text] floatValue];
+    float buy = [[self.buyingTextFeild text] floatValue];
+    float price = [[self.priceTextFeild text] floatValue];
     
-    NSLog(@"water: %f ratio: %f", water, ratio);
+    NSLog(@"buy: %f price: %f", buy, price);
     
-    float coffee = water / ratio;
-    NSLog(@"coffee: %f", coffee);
+    float purchase = buy / price;
+    NSLog(@"purchase: %f", purchase);
     
-    NSString *coffeeText = [NSString stringWithFormat:@"%f", coffee];
+    NSString *purchaseText = [NSString stringWithFormat:@"%f", purchase];
     
-    self.coffeeTextFeild.text = coffeeText;
+    self.purchaseTextFeild.text = purchaseText;
+
+    float stoploss = ((price * -.02) + price);
+    NSLog(@"stoploss: %f", stoploss);
+    
+    float threecent = ((price * .03) + price);
+    NSLog(@"threecent: %f", threecent);
+    
+    float eightcent = ((price * .08) + price);
+    NSLog(@"eightcent: %f", eightcent);
+    
+    NSString *stoplossText = [NSString stringWithFormat:@"%f", stoploss];
+    NSString *threecentText = [NSString stringWithFormat:@"%f", threecent];
+    NSString *eightcentText = [NSString stringWithFormat:@"%f", eightcent];
+    self.stoplossTextFeild.text = stoplossText;
+    self.threecentTextField.text = threecentText;
+    self.eightcentTextFeild.text = eightcentText;
+
+    
 }
 @end

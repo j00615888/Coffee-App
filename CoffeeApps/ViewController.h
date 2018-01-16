@@ -10,11 +10,19 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *waterTextFeild;
+@property (weak, nonatomic) IBOutlet UITextField *buyingTextFeild;
 
-@property (weak, nonatomic) IBOutlet UITextField *ratioTextFeild;
+@property (weak, nonatomic) IBOutlet UITextField *priceTextFeild;
 
-@property (weak, nonatomic) IBOutlet UITextField *coffeeTextFeild;
+@property (weak, nonatomic) IBOutlet UITextField *purchaseTextFeild;
+
+@property (weak, nonatomic) IBOutlet UITextField *stoplossTextFeild;
+
+@property (weak, nonatomic) IBOutlet UITextField *threecentTextField;
+
+@property (weak, nonatomic) IBOutlet UITextField *eightcentTextFeild;
+
+
 
 - (IBAction)calculateFeilds:(id)sender;
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0BDC711FBE7723005A2BCA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA0BDC6F1FBE7723005A2BCA /* Model.xcdatamodeld */; };
+		EA0BDC741FBE775E005A2BCA /* cModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA0BDC721FBE775E005A2BCA /* cModel.xcdatamodeld */; };
 		EA27542A1E3560C700FB576A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2754291E3560C700FB576A /* main.m */; };
 		EA27542D1E3560C700FB576A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27542C1E3560C700FB576A /* AppDelegate.m */; };
 		EA2754301E3560C700FB576A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27542F1E3560C700FB576A /* ViewController.m */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0BDC701FBE7723005A2BCA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EA0BDC731FBE775E005A2BCA /* cModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cModel.xcdatamodel; sourceTree = "<group>"; };
 		EA2754251E3560C700FB576A /* CoffeeApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2754291E3560C700FB576A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA27542B1E3560C700FB576A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		EA27541C1E3560C700FB576A = {
 			isa = PBXGroup;
 			children = (
+				EA0BDC6F1FBE7723005A2BCA /* Model.xcdatamodeld */,
 				EA2754271E3560C700FB576A /* CoffeeApps */,
 				EA2754411E3560C700FB576A /* CoffeeAppsTests */,
 				EA27544C1E3560C700FB576A /* CoffeeAppsUITests */,
@@ -110,6 +115,7 @@
 				EA2754361E3560C700FB576A /* LaunchScreen.storyboard */,
 				EA2754391E3560C700FB576A /* Info.plist */,
 				EA2754281E3560C700FB576A /* Supporting Files */,
+				EA0BDC721FBE775E005A2BCA /* cModel.xcdatamodeld */,
 			);
 			path = CoffeeApps;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 				EA2754301E3560C700FB576A /* ViewController.m in Sources */,
 				EA27542D1E3560C700FB576A /* AppDelegate.m in Sources */,
 				EA27542A1E3560C700FB576A /* main.m in Sources */,
+				EA0BDC741FBE775E005A2BCA /* cModel.xcdatamodeld in Sources */,
+				EA0BDC711FBE7723005A2BCA /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +537,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA0BDC6F1FBE7723005A2BCA /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA0BDC701FBE7723005A2BCA /* Model.xcdatamodel */,
+			);
+			currentVersion = EA0BDC701FBE7723005A2BCA /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		EA0BDC721FBE775E005A2BCA /* cModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA0BDC731FBE775E005A2BCA /* cModel.xcdatamodel */,
+			);
+			currentVersion = EA0BDC731FBE775E005A2BCA /* cModel.xcdatamodel */;
+			path = cModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EA27541D1E3560C700FB576A /* Project object */;
 }
